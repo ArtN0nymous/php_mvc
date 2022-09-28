@@ -1,0 +1,85 @@
+#tabla_p{
+
+    /* definimos las propiedades de nuestra tabla, fondo, tamaño, alineacion, bordes etc. */
+    background-color: rgb(226, 226, 226);
+    width:85%;
+    position: inline-block;
+    float:right;
+    table-layout: fixed;
+    border :3px solid rgb(95, 95, 95);
+}
+#controles{
+
+    /* definimos las propiedaddes de nuestra caja de control principal  */
+    float:left;
+    position: absolute;
+    background-color: rgb(190, 190, 190);
+    border :3px solid rgb(95, 95, 95);
+    width:15%;
+    padding-block-end: 0.7%;
+}
+
+td{
+
+    /* indicamos la alineacion del texto de nuestras filas/celdas de la tabla respecto a las columnas */
+    text-align:center;
+}
+
+#select{
+    /* definimos la fuente y tamaño de nuetsro select/combobox */
+    font: 1.4em/1 Open Sans, Impact;
+    padding-left: 5%;
+}
+
+input{
+    /* asignamos los valores de fuente para nuestros inputs */
+    font: 0.9em/1 Open Sans, Impact;
+}
+
+#name{
+    /* propiedades del input name */
+    width:97%;
+    border :3px solid rgb(95, 95, 95);
+}
+#precio{
+    /* propiedades del input precio */
+    width:60%;
+    border :3px solid rgb(95, 95, 95);
+}
+#cantidad{
+    /* propiedades del input cantidad */
+    width:50%;
+    border :3px solid rgb(95, 95, 95);
+}
+#nuevo{
+
+    /* propiedades del boton registrar */
+    width:98.5%;
+}
+
+#eliminar{
+    /* propiedades del boton eliminar, fondo, tamaño alineacion de texto */
+    background-color:rgb(218, 68, 98);
+    width: 48%;
+    height: 35px;
+    text-align: center;
+}
+/* #delete{
+    color:rgb(146, 94, 94);
+} */
+
+#editar{
+    /* propiedades le boton modificar */
+    background-color:rgb(241, 241, 129);
+    height: 35px;
+    width: 49%;
+}
+
+#description{
+    /* propiedades del textarea */
+    border :3px solid rgb(95, 95, 95);
+}
+
+/* #edit{
+    color: rgb(241, 241, 129);
+} */
